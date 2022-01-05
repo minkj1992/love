@@ -26,6 +26,9 @@ $ touch assets/_override.scss
 
 # draft must be falsed
 $ hugo new posts/first_post.md
+
+#  fatal: your current branch 'main' does not have any commits yet
+$ git add . && git commit -m"Initial commit"
 $ hugo -D
 
 ```

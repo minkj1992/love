@@ -1,18 +1,15 @@
 ---
-weight: 4
 title: "Initial Post"
 date: 2022-01-01T23:00:00+09:00
-lastmod: 2022-01-01T23:10:00+09:00
-draft: false
+lastmod: 2022-01-02T04:11:40+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 description: "This article shows the basic Markdown syntax and format."
-resources:
-- name: "featured-image"
-  src: "images/profile2.jpeg"
+draft: false
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
 lightgallery: true
+featuredImage: "/images/featured-image.jpeg"
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
@@ -54,7 +51,7 @@ Without further delay, let us go over the main elements of Markdown and what the
 :(far fa-bookmark fa-fw): Bookmark this page for easy future reference!
 {{< /admonition >}}
 
-## 1 Headings
+## 1. Headings
 
 Headings from `h2` through `h6` are constructed with a `#` for each level:
 
@@ -90,7 +87,7 @@ The HTML looks like this:
 ```
 {{< /admonition >}}
 
-## 2 Comments
+## 2. Comments
 
 Comments should be HTML compatible.
 
@@ -106,7 +103,7 @@ Comment below should **NOT** be seen:
 This is a comment
 -->
 
-## 3 Horizontal Rules
+## 3. Horizontal Rules
 
 The HTML `<hr>` element is for creating a "thematic break" between paragraph-level elements.
 In Markdown, you can create a `<hr>` with any of the following:
@@ -121,7 +118,7 @@ ___
 ---
 ***
 
-## 4 Body Copy
+## 4. Body Copy
 
 Body copy written as normal, plain text will be wrapped with `<p></p>` tags in the rendered HTML.
 
@@ -141,7 +138,7 @@ The HTML looks like this:
 
 A **line break** can be done with one blank line.
 
-## 5 Inline HTML
+## 5. Inline HTML
 
 If you need a certain HTML tag (with a class) you can simply use HTML:
 
@@ -155,9 +152,9 @@ Paragraph in Markdown.
 Paragraph in Markdown.
 ```
 
-## 6 Emphasis
+## 6. Emphasis
 
-### Bold
+### 6.1. Bold
 
 For emphasizing a snippet of text with a heavier font-weight.
 
@@ -174,7 +171,7 @@ The HTML looks like this:
 <strong>rendered as bold text</strong>
 ```
 
-### Italics
+### 6.2. Italics
 
 For emphasizing a snippet of text with italics.
 
@@ -191,7 +188,7 @@ The HTML looks like this:
 <em>rendered as italicized text</em>
 ```
 
-### Strikethrough
+### 6.3. Strikethrough
 
 In [[GFM]^(GitHub flavored Markdown)](https://github.github.com/gfm/) you can do strikethroughs.
 
@@ -209,7 +206,7 @@ The HTML looks like this:
 <del>Strike through this text.</del>
 ```
 
-### Combination
+### 6.4. Combination
 
 Bold, italics, and strikethrough can be used in combination.
 
@@ -239,7 +236,7 @@ The HTML looks like this:
 <del><em><strong>bold, italics and strikethrough</strong></em></del>
 ```
 
-## 7 Blockquotes
+## 7. Blockquotes
 
 For quoting blocks of content from another source within your document.
 
@@ -279,9 +276,9 @@ Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
 >> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
 odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
 
-## 8 Lists
+## 8. Lists
 
-### Unordered
+### 8.1. Unordered
 
 A list of items in which the order of the items does not explicitly matter.
 
@@ -347,7 +344,7 @@ The HTML looks like this:
 </ul>
 ```
 
-### Ordered
+### 8.2. Ordered
 
 A list of items in which the order of items does explicitly matter.
 
@@ -414,7 +411,7 @@ The rendered output looks like this:
 1. Eget porttitor lorem
 {{< /admonition >}}
 
-### Task Lists
+### 8.3. Task Lists
 
 Task lists allow you to create a list of items with checkboxes. To create a task list, add dashes (`-`) and brackets with a space (`[ ]`) before task list items. To select a checkbox, add an x in between the brackets (`[x]`).
 
@@ -430,9 +427,9 @@ The rendered output looks like this:
 - [ ] Update the website
 - [ ] Contact the media
 
-## 9 Code
+## 9. Code
 
-### Inline Code
+### 9.1. Inline Code
 
 Wrap inline snippets of code with <code>`</code>.
 
@@ -452,7 +449,7 @@ The HTML looks like this:
 </p>
 ```
 
-### Indented Code
+### 9.2. Indented Code
 
 Or indent several lines of code by at least four spaces, as in:
 
@@ -483,7 +480,7 @@ The HTML looks like this:
 </pre>
 ```
 
-### Block Fenced Code
+### 9.3. Block Fenced Code
 
 Use "fences" <code>```</code> to block in multiple lines of code with a language attribute.
 
@@ -501,7 +498,7 @@ The HTML looks like this:
 </pre>
 ```
 
-### Syntax Highlighting
+### 9.4. Syntax Highlighting
 
 [GFM]^(GitHub Flavored Markdown) also supports syntax highlighting.
 
@@ -560,7 +557,7 @@ grunt.initConfig({
 [Syntax highlighting page](https://gohugo.io/content-management/syntax-highlighting/) in **Hugo** Docs introduces more about syntax highlighting, including highlight shortcode.
 {{< /admonition >}}
 
-## 10 Tables
+## 10. Tables
 
 Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.
 
@@ -629,9 +626,9 @@ The rendered output looks like this:
 | ext    | extension to be used for dest files. |
 {{< /admonition >}}
 
-## 11 Links {#links}
+## 11. Links {#links}
 
-### Basic Link
+### 11.1. Basic Link
 
 ```markdown
 <https://assemble.io>
@@ -655,7 +652,7 @@ The HTML looks like this:
 <a href="https://assemble.io">Assemble</a>
 ```
 
-### Add a Title
+### 11.2. Add a Title
 
 ```markdown
 [Upstage](https://github.com/upstage/ "Visit Upstage!")
@@ -671,7 +668,7 @@ The HTML looks like this:
 <a href="https://github.com/upstage/" title="Visit Upstage!">Upstage</a>
 ```
 
-### Named Anchors
+### 11.3. Named Anchors
 
 Named anchors enable you to jump to the specified anchor point on the same page. For example, each of these chapters:
 
@@ -699,7 +696,7 @@ Content for chapter one.
 The specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.
 {{< /admonition >}}
 
-## 12 Footnotes
+## 12. Footnotes
 
 Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.
 
@@ -722,7 +719,7 @@ This is a footnote with "label"[^label]
 [^1]: This is a digital footnote
 [^label]: This is a footnote with "label"
 
-## 13 Images
+## 13. Images
 
 Images have a similar syntax to links but include a preceding exclamation point.
 
@@ -756,6 +753,3 @@ With a reference later in the document defining the URL location:
 
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 
-{{< admonition tip >}}
-**LoveIt** theme has [special shortcode for image](../theme-documentation-extended-shortcodes#image), which provides more features.
-{{< /admonition >}}

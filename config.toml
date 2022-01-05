@@ -4,7 +4,7 @@ theme = "LoveIt"
 # themesDir = "./themes/LoveIt"
 
 # website title
-title = "<strong>A serious blog</strong>"
+title = "The Serious blog"
 
 # whether to use robots.txt
 enableRobotsTXT = true
@@ -12,6 +12,8 @@ enableRobotsTXT = true
 enableGitInfo = true
 # whether to use emoji code
 enableEmoji = true
+
+canonifyURLs = false
 
 [languages]
   [languages.en]
@@ -83,7 +85,7 @@ enableEmoji = true
         weight = 6
     [languages.en.params]
       # site description
-      description = "About Leoo"
+      description = "About Seroius"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
@@ -104,7 +106,7 @@ enableEmoji = true
       [languages.en.params.search]
         enable = true
         # type of search engine ("lunr", "algolia")
-        type = "algolia"
+        type = "lunr"
         # max index length of the chunked content
         contentLength = 4000
         # placeholder of the search bar
@@ -112,7 +114,7 @@ enableEmoji = true
         # max number of results length
         maxResultLength = 10
         # snippet length of the result
-        snippetLength = 30
+        snippetLength = 50
         # HTML tag name of the highlight part in results
         highlightTag = "em"
         # whether to use the absolute URL based on the baseURL in search index
@@ -135,7 +137,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = "Leoo"
           # subtitle shown in home page
-          subtitle = "Let's sinking down with me 🐋"
+          subtitle = "I am serious 🐋"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -430,11 +432,11 @@ enableEmoji = true
         shortname = ""
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        enable = true
+        owner = "minkj1992"
+        repo = "The serious"
+        clientId = "ed5c1cf7b0456f1ca4c7"
+        clientSecret = "4eb129d40ccf8f5791013a19ac93234d65fb54ea"
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]

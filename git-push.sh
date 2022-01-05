@@ -5,42 +5,47 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
-echo "Build the project."
-hugo -D
+printf "\033[0;32mBuild the project.\033[0m\n"
+hugo
 # hugo -t timeline # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-echo "Go To Public folder"
+
+printf "\033[0;32m  Go To Public folder \033[0m\n"
 cd public
 
-echo  "Setting for submodule commit"
+
+printf "\033[0;32m  Setting for submodule commit \033[0m\n"
 git config --local user.name "minkj1992"
 git config --local user.email "minkj1992@gmail.com"
 git submodule update --init --recursive
 
-echo "Add changes to git."
 
+printf "\033[0;32m  Add changes to git. \033[0m\n"
 git add .
 
-echo "Commit changes."
+printf "\033[0;32m  Commit changes.. \033[0m\n"
 msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
 git commit -m "$msg"
 
-echo "Push blog(presentation) source and build repos."
-git push origin main
+printf "\033[0;32m  Push blog(presentation) source and build repos. \033[0m\n"
+git push -f origin main
 
-# Come Back up to the Project Root
+
+printf "\033[0;32m  Come Back up to the Project Root \033[0m\n"
 cd ..
+echo $pwd
 
-echo "root repository Commit & Push"
+printf "\033[0;32m  root repository Commit & Push. \033[0m\n"
 git add .
 
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
+
 git commit -m "$msg"
 
-git push origin main
+git push -f origin main
