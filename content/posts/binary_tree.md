@@ -1,15 +1,16 @@
 ---
-title: "Algorithm"
+title: "Binary Tree"
 date: 2022-01-06T12:38:28+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
-description: "Algorithm"
+description: "About Binary Tree"
 draft: false
 tags: ["algorithm", "dev"]
 categories: ["algorithm"]
 featuredImage: "images/tree.jpeg"
 lightgallery: true
 ---
+
 
 ## Binary Tree
 1. child > 2면 안된다.
@@ -36,7 +37,7 @@ lightgallery: true
 2. 힙의 마지막 element를 root로 이동
 3. 힙 재구성 (= 위 -> 아래 heapify)
    1. (if child exist) l, r 비교하여 현재 노드가 작다면 exchange (max heap 기준)
-   2. 재귀적으로 반복
+   2. 재귀적으로 반복   
 
 
 
@@ -50,3 +51,7 @@ lightgallery: true
 ## BST ( Binary Search Tree )
 
 @TODO
+
+## refs
+- https://medium.com/@koheiarai94/60-leetcode-questions-to-prepare-for-coding-interview-8abbb6af589e
+- https://medium.com/interviewnoodle/grokking-leetcode-a-smarter-way-to-prepare-for-coding-interviews-e86d5c9fe4e1
