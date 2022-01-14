@@ -42,3 +42,73 @@ $ hugo server -D
 ```bash
 sh git-push.sh <COMMIT_MSG>
 ```
+
+## markdown tip
+
+- img with naming
+```html
+<figure>
+    <img src="/images/lighthouse.jpg"/>
+    <figcaption>
+        <h4>Lighthouse (figure)</h4>
+    </figcaption>
+</figure>
+```
+
+```markdown
+{{< image src="/images/lighthouse.jpg" caption="Lighthouse (`image`)" src_s="/images/lighthouse-small.jpg" src_l="/images/lighthouse-large.jpg" >}}
+```
+
+- `admonition`
+  - note
+  - abstract, summary, tldr
+  - info
+  - tip
+  - success
+  - question
+  - warning
+  - failure
+  - danger
+  - bug
+  - example
+  - quote
+```markdown
+{{< admonition >}}
+{{< /admonition >}}
+```
+
+- `mermaid` (sequence diagram)
+```markdown
+{{< mermaid >}}
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail...
+    John-->Alice: Great!
+    John->Bob: How about you?
+    Bob-->John: Jolly good!
+{{< /mermaid >}}
+```
+
+- `typeit`
+
+```markdown
+{{< typeit >}}
+This is a *paragraph* with **typing animation** based on [TypeIt](https://typeitjs.com/)...
+{{< /typeit >}}
+```
+
+- `typeit with code`
+```markdown
+{{< typeit code=java >}}
+public class HelloWorld {
+    public static void main(String []args) {
+        System.out.println("Hello World");
+    }
+}
+{{< /typeit >}}
+```

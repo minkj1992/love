@@ -11,6 +11,10 @@ featuredImage: "/images/cpp.jpeg"
 lightgallery: true
 ---
 
+> `Modern c++`을 학습하고 기억할만한 요소들을 정리합니다.
+<!--more-->
+
+
 ---
 <details>
 <summary><strong><u>1. Terminology</u></strong></summary>

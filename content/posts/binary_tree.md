@@ -11,6 +11,9 @@ featuredImage: "images/tree.jpeg"
 lightgallery: true
 ---
 
+> Binary Tree관련 알고리즘들을 학습하고 정리합니다.
+<!--more-->
+
 
 ## Binary Tree
 1. child > 2면 안된다.

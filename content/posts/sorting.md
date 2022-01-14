@@ -11,6 +11,10 @@ featuredImage: "/images/sorting.jpeg"
 lightgallery: true
 ---
 
+> Let's summary list of Sorting Algorithms
+<!--more-->
+
+
 ## tl;dr
 
 |index|sorting name|time|space|description|

@@ -12,7 +12,7 @@ lightgallery: true
 featuredImage: "/images/featured-image.jpeg"
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
+> This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
 
 <!--more-->
 

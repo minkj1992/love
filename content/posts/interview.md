@@ -4,12 +4,15 @@ date: 2022-01-10T11:41:50+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 description: "All Basic Computer Science"
-draft: false
+draft: true
 tags: ["dev", "cs", "interview"]
 categories: ["dev"]
 featuredImage: "/images/interview.jpeg"
 lightgallery: true
 ---
+
+> Let's prepare basic computer science interview questions.
+<!--more-->
 
 ## Operating System
 ...

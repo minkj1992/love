@@ -7,15 +7,14 @@ description: "Hugo로 블로그 만들기"
 draft: false
 tags: ["hugo", "blog", "LoveIt"]
 categories: ["hugo"]
-featuredImagePreview: "/images/hugo-logo-wide.svg"
+featuredImage: "/images/hugo-logo-wide.svg"
 lightgallery: true
 ---
 
-![](/images/hugo-logo-wide.svg)
+> This article describes a series of technical steps to building this `serious` blog using the [hugo framework](https://gohugo.io/).
+<!--more-->
 
-{{< admonition >}}
-This article describes a series of technical steps to building this `serious` blog using the [hugo framework](https://gohugo.io/).
-{{< /admonition >}}
+
 
 사실 `Hugo`는 20년도에 혼자 제주도 여행을 가면서, 생각을 정리하고 싶어서 눈여겨 봤던 프레임워크이다.
 당시 `go`를 공부하고 있었기 때문에 go로 만들어진 프레임워크라는 점에서 호감 +99점을 받았고, 이름이 다른 프레임워크들에 비해서 짧다는 장점이 있다. 
