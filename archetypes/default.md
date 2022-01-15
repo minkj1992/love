@@ -11,11 +11,9 @@ lastmod: {{ .Date }}
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 
-
-featuredImage: ""
+featuredImage: "/images/"
 tags: ["dev"]
 categories: [""]
-featuredImage: ""
 
 lightgallery: true
 draft: true
@@ -25,5 +23,5 @@ draft: true
 You need to write intro in here
 <!--more-->
 <br />
-<br />
-<br />
+
+## tl;dr
