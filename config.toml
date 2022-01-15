@@ -424,18 +424,19 @@ canonifyURLs = false
         shortname = ""
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = true
+        enable = false
         owner = "minkj1992"
-        repo = "The serious"
-        clientId = "ed5c1cf7b0456f1ca4c7"
-        clientSecret = "4eb129d40ccf8f5791013a19ac93234d65fb54ea"
+        repo = "minkj1992.github.io"
+        clientId = ""
+        clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
-      # Valine 评论系统设置 (https://github.com/xCss/Valine)
+      # https://note.hommalab.io/posts/web/change-comment-system-to-valine/
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
-        placeholder = ""
+        serverURLs = "https://minkj1992.github.io"
+        placeholder = "I'm serious too"
         avatar = "mp"
         meta= ""
         pageSize = 10
@@ -444,7 +445,6 @@ canonifyURLs = false
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://leancloud.hugoloveit.com"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
@@ -482,11 +482,11 @@ canonifyURLs = false
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "minkj1992/minkj1992.github.io"
         issueTerm = "pathname"
-        label = ""
+        label = "✨💬✨"
         lightTheme = "github-light"
         darkTheme = "github-dark"
     # Third-party library config
