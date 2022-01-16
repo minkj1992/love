@@ -112,3 +112,6 @@ public class HelloWorld {
 }
 {{< /typeit >}}
 ```
+
+## update `lastmod`
+> https://makewithhugo.com/add-a-last-edited-date/
