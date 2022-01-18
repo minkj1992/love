@@ -409,3 +409,18 @@ contract BLT is Sandwich {
 ```
 
 ### interface
+
+블록체인 상에서, 다른 컨트랙트와 상호작용을 하고 싶다면 `Interface`를 정의해야 합니다.
+
+```sol
+contract LuckyNumber {
+  mapping(address => uint) numbers;
+
+  function setNum(uint _num) public {
+    numbers[msg.sender] = _num;
+  }
+  function getNum(address _myAddress) public view returns (uint) {
+    return numbers[_myAddress];
+  }
+}
+```

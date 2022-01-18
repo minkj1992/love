@@ -10,15 +10,12 @@ lastmod: 2022-01-18T12:34:09+09:00
 
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
-
-featuredImage: "/image/robot.jpeg"
+featuredImage: "/image/ros_melodic.png"
 tags: ["dev"]
 categories: ["ros"]
 
-
 draft: false
 ---
-
 
 `ros2 Foxy` 실행에 필요한 개발 환경을 `ubuntu`, `vm`환경에 세팅해봅니다.
 <!--more-->
@@ -50,8 +47,8 @@ wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20B
 ```
 
 2. update fonts
-    - terminal
-    - vscode
+   - terminal
+   - vscode
 
 3. install powerlevel10k
 
