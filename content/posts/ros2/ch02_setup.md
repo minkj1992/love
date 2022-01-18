@@ -10,7 +10,7 @@ lastmod: 2022-01-18T12:34:09+09:00
 
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
-featuredImage: "/image/ros_melodic.png"
+featuredImage: "/images/ros_melodic.png"
 tags: ["dev"]
 categories: ["ros"]
 
