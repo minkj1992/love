@@ -11,7 +11,7 @@ lastmod: 2022-01-28T18:25:08+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 
-featuredImage: "/images/eth_wallet.webp"
+featuredImage: "/images/doge-computer.webp"
 tags: ["dev", "ethereum"]
 categories: ["blockchain"]
 
