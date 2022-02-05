@@ -1,6 +1,7 @@
 # love yourself
 
 ## init
+
 ```bash
 $ hugo new site love
 $ cd love
@@ -34,11 +35,13 @@ $ hugo -D
 ```
 
 ## run (local)
+
 ```bash
 $ hugo server -D
 ```
 
 ## push
+
 ```bash
 sh git-push.sh <COMMIT_MSG>
 ```
@@ -46,12 +49,13 @@ sh git-push.sh <COMMIT_MSG>
 ## markdown tip
 
 - img with naming
+
 ```html
 <figure>
-    <img src="/images/lighthouse.jpg"/>
-    <figcaption>
-        <h4>Lighthouse (figure)</h4>
-    </figcaption>
+  <img src="/images/lighthouse.jpg" />
+  <figcaption>
+    <h4>Lighthouse (figure)</h4>
+  </figcaption>
 </figure>
 ```
 
@@ -72,25 +76,27 @@ sh git-push.sh <COMMIT_MSG>
   - bug
   - example
   - quote
+
 ```markdown
 {{< admonition >}}
 {{< /admonition >}}
 ```
 
 - `mermaid` (sequence diagram)
+
 ```markdown
 {{< mermaid >}}
 sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts <br/>prevail...
-    John-->Alice: Great!
-    John->Bob: How about you?
-    Bob-->John: Jolly good!
+participant Alice
+participant Bob
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+John->John: Fight against hypochondria
+end
+Note right of John: Rational thoughts <br/>prevail...
+John-->Alice: Great!
+John->Bob: How about you?
+Bob-->John: Jolly good!
 {{< /mermaid >}}
 ```
 
@@ -98,20 +104,22 @@ sequenceDiagram
 
 ```markdown
 {{< typeit >}}
-This is a *paragraph* with **typing animation** based on [TypeIt](https://typeitjs.com/)...
+This is a _paragraph_ with **typing animation** based on [TypeIt](https://typeitjs.com/)...
 {{< /typeit >}}
 ```
 
 - `typeit with code`
+
 ```markdown
 {{< typeit code=java >}}
 public class HelloWorld {
-    public static void main(String []args) {
-        System.out.println("Hello World");
-    }
+public static void main(String []args) {
+System.out.println("Hello World");
+}
 }
 {{< /typeit >}}
 ```
 
 ## update `lastmod`
+
 > https://makewithhugo.com/add-a-last-edited-date/
