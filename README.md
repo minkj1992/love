@@ -78,8 +78,8 @@ sh git-push.sh <COMMIT_MSG>
   - quote
 
 ```markdown
-{{< admonition >}}
-{{< /admonition >}}
+{{< admonition note "Heading IDs" >}}
+To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading:
 ```
 
 - `mermaid` (sequence diagram)

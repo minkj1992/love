@@ -11,7 +11,7 @@ lastmod: 2022-02-05T16:12:53+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 
-featuredImage: "/images/golang/golang.png"
+featuredImage: "/images/golang/golang.jpeg"
 tags: ["dev", "go"]
 categories: ["go"]
 
