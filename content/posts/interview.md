@@ -1,10 +1,10 @@
 ---
 title: "All Basic Computer Science"
-date: 2022-01-10T11:41:50+09:00
+date: 2022-02-06T22:00:50+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 description: "All Basic Computer Science"
-draft: true
+draft: false
 tags: ["dev", "cs", "interview"]
 categories: ["dev"]
 featuredImage: "/images/interview.jpeg"
@@ -12,33 +12,35 @@ lightgallery: true
 ---
 
 > Let's prepare basic computer science interview questions.
+
 <!--more-->
 
 ## Operating System
+
 ...
 
 ## Network
+
 <details>
 <summary>웹 통신의 큰 흐름: https://www.google.com/ 을 접속할 때 일어나는 일</summary>
 </br>
 
 > 키워드: `dhcp`, `dns`, `nat`, `isp`, `3-way / 4-way handshake`, `ssl (ssl handshake)`
 
-
 <h4>Process</h4>
 
 1. 가장 먼저 브라우저가 url에 적힌 값을 파싱해서 `HTTP Request Message`를 만들고, OS에 전송 요청을 합니다.
 
 2. **OS는 `DNS Lookup`을 수행합니다.**
-룩업 과정은 etc/hosts > DNS Cache > Cache가 없을 경우 dns server로 ip를 얻어옵니다.
-
+   룩업 과정은 etc/hosts > DNS Cache > Cache가 없을 경우 dns server로 ip를 얻어옵니다.
 
 3. **DNS server로 ip request**
-이때 DNS server IP는 1차적으로 `isp`(internet service provider, ex kt, skt...)가 제공하는 정보들이 `dhcp`에 의해 컴퓨터에 세팅됩니다. 
+   이때 DNS server IP는 1차적으로 `isp`(internet service provider, ex kt, skt...)가 제공하는 정보들이 `dhcp`에 의해 컴퓨터에 세팅됩니다.
 
 `dhcp`는 wifi를 쓸 경우, 공유기에 연결되어있는 `gateway ip`와 `router`의 `NAT`을 통해 `사설 ip`(private ip)를 할당 받으며, 외부 통신을 할 경우 router의 `Public ip`을 사용합니다.
 
 ISP에 의해 세팅되어 있는 dns server로 아래 형식의 요청을 보내어, 도메인에 매핑된 ip를 받아옵니다.
+
 ```
 - from: router ip(nat ip)
 - to: 받아온 ip
@@ -46,17 +48,19 @@ ISP에 의해 세팅되어 있는 dns server로 아래 형식의 요청을 보�
 ```
 
 4. **루트 도메인서버에서부터 서브도메인 서버순으로 dns query**
-이제 DNS Server로 DNS Query를 요청하게 되면 DNS 서버는 `Root name server`에 해당 도메인을 질의하고, `.com` `name server`의 ip를 받아오게 됩니다.
+   이제 DNS Server로 DNS Query를 요청하게 되면 DNS 서버는 `Root name server`에 해당 도메인을 질의하고, `.com` `name server`의 ip를 받아오게 됩니다.
 
 그 후 `.com 네임 서버`에 도메인 Query하게되면 `google.com`의 ip주소를 받고 최종적으로 `www.google.com`의 ip를 받아오게 됩니다.
 
 5. pc는 최종 서버 ip로 HTTP Request를 보낸다.
 
 - 3-way handshake
-> syn > ack, syn > ack
+
+  > syn > ack, syn > ack
 
 - 4-way handshake
-> fin > ack(close wait) > fin(last_ack) > ack
+
+  > fin > ack(close wait) > fin(last_ack) > ack
 
 - [tls/ssl](https://www.cloudflare.com/ko-kr/learning/ssl/what-happens-in-a-tls-handshake/)
 - [좀 더 자세한 과정 설명](https://blog.cloudflare.com/keyless-ssl-the-nitty-gritty-technical-details/)
@@ -64,7 +68,7 @@ ISP에 의해 세팅되어 있는 dns server로 아래 형식의 요청을 보�
 ![](/images/rsa_ssl.jpeg)
 
 ```
-# RSA 키 교환 알고리즘 
+# RSA 키 교환 알고리즘
 1. client hello (protocol version, 암호 알고리즘, 압축 방식, 클라 난수)
 2. server hello (세션 ID, ca 인증서, 서버난수)
 3. verify ca and get public key
@@ -77,19 +81,18 @@ ISP에 의해 세팅되어 있는 dns server로 아래 형식의 요청을 보�
 
 </details>
 
-
 <details>
 <summary>TCP vs UDP</summary>
 
-||TCP|UDP|
-|:---:|:--:|:--:|
-|연결방식|연결형서비스|비 연결형 서비스|
-|패킷 교환 방식| 가상 회선 방식 | 데이터그램 방식 |
-|전송 순서|전송 순서 보장|전송 순서가 바뀔 수 있음|
-|수신 여부 확인|수신 여부를 확인함|수신 여부를 확인하지 않음|
-|통신 방식|1:1 통신만 가능| 1:1 / 1:N / N:N 통신 모두 가능|
-|신뢰성|높음|낮음|
-|속도|느림|빠름|
+|                |        TCP         |              UDP               |
+| :------------: | :----------------: | :----------------------------: |
+|    연결방식    |    연결형서비스    |        비 연결형 서비스        |
+| 패킷 교환 방식 |   가상 회선 방식   |        데이터그램 방식         |
+|   전송 순서    |   전송 순서 보장   |    전송 순서가 바뀔 수 있음    |
+| 수신 여부 확인 | 수신 여부를 확인함 |   수신 여부를 확인하지 않음    |
+|   통신 방식    |  1:1 통신만 가능   | 1:1 / 1:N / N:N 통신 모두 가능 |
+|     신뢰성     |        높음        |              낮음              |
+|      속도      |        느림        |              빠름              |
 
 </details>
 
@@ -98,15 +101,12 @@ ISP에 의해 세팅되어 있는 dns server로 아래 형식의 요청을 보�
 
 [web socket mdn](https://developer.mozilla.org/ko/docs/Web/API/WebSockets_API/Writing_WebSocket_servers)
 
-
 ![](/images/websocket.png)
 
 클라와 서버가 서로 TCP/IP 4계층 레이어에서 통신한다. 즉 conneciton을 들고 있다.
 
 - http 요청 이후, upgrade요청 한다.
 - ping을 지속적으로 쏴서, health-check
-
-
 
 </details>
 
@@ -125,7 +125,7 @@ nginx의 경우 기본적으로 라운드 로빈 방식으로 동작합니다.
 <details>
 <summary>Nginx가 10k problem을 해결한 방식</summary>
 
-기존 방식은 request당 하나의 process 또는 thread를 사용해서 요청들을 처리했습니다. 이에 반해 nginx는 worker pool을 두고 request가 들어올 때 마다, async하게 worker(default cpu 당 1)에게 task를 위임합니다. 
+기존 방식은 request당 하나의 process 또는 thread를 사용해서 요청들을 처리했습니다. 이에 반해 nginx는 worker pool을 두고 request가 들어올 때 마다, async하게 worker(default cpu 당 1)에게 task를 위임합니다.
 
 이렇게 하게 될 경우 process/thread에 비해, pcb/tcb를 만드는데 들어가는 비용을 줄일 수 있으며 또한 사용자의 요청이 많아질 경우, 상대적으로 context switching에 사용되는 비용을 줄일 수 있습니다. 마지막으로 os가 스케쥴링에 들어가는 비용이 줄어듭니다.
 
@@ -154,7 +154,6 @@ nginx의 경우 기본적으로 라운드 로빈 방식으로 동작합니다.
 
 </details>
 
-
 <details>
 <summary>트랜잭션과 lock에 대해서 isolation과 연결 지어 설명해주세요</summary>
 
@@ -168,10 +167,9 @@ DB엔진은 ACID 원칙을 희생하여 동시성을 얻을 수 있는 방법을
   - x lock: write index lock
 - Gap lock: db index record의 gap에 걸리는 lock (gap = db에 실제 record가 없는 부분)
 
- lock은 모두 transaction이 commit 되거나 rollback 될 때 함께 unlock
+lock은 모두 transaction이 commit 되거나 rollback 될 때 함께 unlock
 
-- `Consistent read`
-  - 
+- ## `Consistent read`
 - Isolation
 </details>
 
@@ -187,17 +185,19 @@ DB엔진은 ACID 원칙을 희생하여 동시성을 얻을 수 있는 방법을
 <summary>DB index에 대해 설명해주세요</summary>
 
 https://idea-sketch.tistory.com/43?category=547413
+
 </details>
 
 - dirty read, Non-Repeatable Read, Phantom Read
 - optimistic lock, pessimistic lock
 - slow query
-- 
+-
 - Index
 
-
 ## Software Engineering
-## Design Pattern
-## Language
-## Computer Architecture
 
+## Design Pattern
+
+## Language
+
+## Computer Architecture
