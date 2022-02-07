@@ -35,6 +35,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
   description = "About Seroius"
   keywords = ["minkj1992","backend", "robotics","blockchain", "developer", "ros", "go", "serious"]
 
+
   # Header config
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
@@ -487,8 +488,10 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
+    style = "monokai"
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+    
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
     [markup.goldmark.extensions]

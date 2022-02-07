@@ -1,6 +1,6 @@
 ---
 title: "Robotics Coding Challenge"
-date: 2022-02-06T13:49:15+09:00
+date: 2022-01-06T13:49:15+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 description: "I applied for a robotics company and got a coding interview."
