@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>LoveIt - Tag - The Serious</title>
+        <link>https://minkj1992.github.io/tags/loveit/</link>
+        <description>LoveIt - Tag - The Serious</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>minkj1992@gmail.com (Minwook Je)</managingEditor>
+            <webMaster>minkj1992@gmail.com (Minwook Je)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 02 Jan 2022 14:59:43 &#43;0900</lastBuildDate><atom:link href="https://minkj1992.github.io/tags/loveit/" rel="self" type="application/rss+xml" /><item>
+    <title>Let&#39;s create blog with Hugo</title>
+    <link>https://minkj1992.github.io/initial_hugo/</link>
+    <pubDate>Sun, 02 Jan 2022 14:59:43 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>https://minkj1992.github.io/initial_hugo/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/hugo-logo-wide.svg" referrerpolicy="no-referrer">
+            </div><blockquote>
+<p>This article describes a series of technical steps to building this <code>serious</code> blog using the <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer">hugo framework</a>.</p>
+</blockquote>]]></description>
+</item></channel>
+</rss>
