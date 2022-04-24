@@ -16,7 +16,7 @@ tags: ["love", "삶의 길 흰구름의 길"]
 categories: ["dao", "ohso"]
 
 lightgallery: true
-draft: true
+draft: false
 ---
 
 
