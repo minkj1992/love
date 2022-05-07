@@ -34,6 +34,25 @@ $ hugo -D
 
 ```
 
+## pull
+
+```
+$ brew install hugo
+$ gh repo clone minkj1992/love
+$ cd love
+$ git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+'themes/LoveIt' already exists in the index
+$ rm .gitmodules && touch .gitmodules
+$ git rm --cached themes/LoveIt
+$ rm -rf themes/LoveIt
+$ git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+$ rm -rf public
+$ git rm --cached public
+$ git submodule add https://github.com/minkj1992/minkj1992.github.io public
+
+$ hugo server -D
+```
+
 ## run (local)
 
 ```bash
