@@ -11,7 +11,7 @@ lastmod: 2022-05-16T23:18:00+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 
-featuredImage: "/images/"
+featuredImage: "/images/boston_dynamics.png"
 tags: ["dev", "gcp", "iot", "coursera"]
 categories: ["iot"]
 
