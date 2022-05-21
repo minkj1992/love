@@ -1,5 +1,5 @@
 ---
-title: "Coursera Gcp Iot"
+title: "Coursera Google IoT"
 subtitle: ""
 
 summary: ""
@@ -263,7 +263,9 @@ Use Cases
 {{< /admonition >}}
 
 
-- TODO: [gcp pubsub labs](https://www.cloudskillsboost.google/catalog?keywords=Google%20Cloud%20Pub%2FSub&qlcampaign=yt18-gsp095-11078&ransack=true&utm_source=youtube&utm_campaign=ytcc110&utm_medium=video)
+- [gcp pubsub labs](https://www.cloudskillsboost.google/catalog?keywords=Google%20Cloud%20Pub%2FSub&qlcampaign=yt18-gsp095-11078&ransack=true&utm_source=youtube&utm_campaign=ytcc110&utm_medium=video) in practice
+   - https://minkj1992.github.io/pubsub/
+
 
 ### Cloud IoT Core
 
