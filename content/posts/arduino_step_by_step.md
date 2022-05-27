@@ -12,11 +12,11 @@ author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 
 featuredImage: "/images/arduino/arduino.png"
-tags: ["dev"]
-categories: [""]
+tags: ["dev", "iot"]
+categories: ["arduino"]
 
 lightgallery: true
-draft: true
+draft: false
 ---
 
 Learn arduino with [Arduino Step by Step: Getting Started by Dr. Peter Dalmaris](https://www.udemy.com/course/arduino-sbs-17gs) lecture.
