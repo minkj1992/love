@@ -12,8 +12,8 @@ author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 
 featuredImage: "/images/protocol_buffer.png"
-tags: ["dev"]
-categories: [""]
+tags: ["dev", "protobuf", "iot"]
+categories: ["dev"]
 
 lightgallery: true
 draft: false
