@@ -57,9 +57,9 @@ draft: true
 
 ## *CH02*
 
-파울로 코엘료가 어린시절 내향적이고 고집스러운 아이로 보여서 부모님에 의해 정신병원에 qh내졌고, 20대에는 저자와 마찬가지로 law school에 입학했지만 drop out한 스토리가 나온다.
+파울로 코엘료가 어린시절 내향적이고 고집스러운 아이로 보여서 부모님에 의해 정신병원에 보내졌고, 20대에는 저자와 마찬가지로 law school에 입학했지만 drop out한 스토리가 나온다.
 
 > ***From the moment that I realized that I wanted to be a writter, I said, "It may take ten days, ten years, or twenty years, but I am going to write." I started by writing songs; I started writing articles for newspapers. I had no choice but to follow the thing that I wanted to do.*** by **Paulo cohelho**
 
 
-*When you lose touch with your heart, you lose touch with your true self. You may feel unmoored and aimless; the world around you seems colorless, dull, and bleak. You cannot remember where you are going with your life. But as soon as you reconnect with your heart, eveything begins to improve. You are never truly lost when you know your heart.*
+> *When you lose touch with your heart, you lose touch with your true self. You may feel unmoored and aimless; the world around you seems colorless, dull, and bleak. You cannot remember where you are going with your life. But as soon as you reconnect with your heart, eveything begins to improve. You are never truly lost when you know your heart.*
