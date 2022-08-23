@@ -16,7 +16,7 @@ tags: ["dev"]
 categories: [""]
 
 lightgallery: true
-draft: true
+draft: false
 ---
 
 

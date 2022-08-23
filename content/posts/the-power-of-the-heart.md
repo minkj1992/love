@@ -16,7 +16,7 @@ tags: ["dev"]
 categories: ["life","book", "heart"]
 
 lightgallery: true
-draft: true
+draft: false
 ---
 
 
