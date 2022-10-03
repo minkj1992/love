@@ -1,6 +1,6 @@
 ---
-title: "Deep dive into cpp"
-subtitle: "Let's deep dive into c++"
+title: "Design principle of `C++` and `Carbon`"
+subtitle: "Let's deep dive into `c++` and `Carbon`"
 
 summary : ""
 description: ""
@@ -11,7 +11,7 @@ lastmod: 2022-09-28T20:35:54+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 
-featuredImage: "/images/"
+featuredImage: "/images/carbon.webp"
 tags: ["dev", "principle"]
 categories: ["dev", "cpp", "modern cpp"]
 
