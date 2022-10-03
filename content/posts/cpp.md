@@ -1,6 +1,6 @@
 ---
-title: "Design principle of `C++` and `Carbon`"
-subtitle: "Let's deep dive into `c++` and `Carbon`"
+title: "Design principle of C++ and Carbon"
+subtitle: "Let's deep dive into c++ and Carbon"
 
 summary : ""
 description: ""
@@ -20,7 +20,7 @@ draft: false
 ---
 
 
-Deep dive into c++ with official site
+Let's deep dive into `c++` and `Carbon`
 <!--more-->
 <br />
 
