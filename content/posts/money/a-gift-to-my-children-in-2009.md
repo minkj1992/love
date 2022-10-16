@@ -5,7 +5,7 @@ subtitle: "내 아이들에게 주는 선물 by 짐 로저스"
 summary : ""
 description: ""
 
-date: 2022-10-16T17:29:51+09:0  0
+date: 2022-10-16T17:29:51+09:00
 lastmod: 2022-10-16T17:29:51+09:00
 
 author: "leoo.j"
