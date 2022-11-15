@@ -23,6 +23,12 @@ draft: false
 <!--more-->
 <br />
 
+<center>
+
+![](/images/gift_to_my_children.jpeg)
+
+</center>
+
 ## 1. 주제 질문과 주제
 > 책의 주요 질문은 무엇이고 그에 대한 답은?
 

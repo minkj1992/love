@@ -19,9 +19,8 @@ lightgallery: true
 draft: false
 ---
 
-
 You need to write intro in here
 <!--more-->
-<br />
 
 ## tl;dr
+
