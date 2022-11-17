@@ -1,5 +1,5 @@
 ---
-title: "(WIP) [GCP] Iot core inpractice"
+title: "[GCP] Iot core inpractice"
 subtitle: "Let's serve robot controll system with iot-core"
 
 summary : ""

@@ -13,7 +13,7 @@ authorLink: "https://github.com/minkj1992"
 
 featuredImage: "/images/poetry.jpeg"
 tags: ["poetry"]
-categories: ["life"]
+categories: ["life", "philosophy"]
 
 lightgallery: true
 draft: false
