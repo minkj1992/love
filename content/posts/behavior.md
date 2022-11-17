@@ -1,6 +1,6 @@
 ---
-title: "(WIP) Consciousness"
-subtitle: "제민욱 양심지침"
+title: "Consciousness"
+subtitle: "(WIP) 제민욱 양심지침"
 
 summary : ""
 description: ""
