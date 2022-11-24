@@ -1,12 +1,12 @@
 ---
-title: "What is Memory?"
-subtitle: "How to study? How to live?"
+title: "What is memory?"
+subtitle: "How to study? and How to live"
 
 summary : ""
 description: ""
 
-date: 2022-11-25T03:31:04+09:00
-lastmod: 2022-11-25T03:31:04+09:00
+date: 2022-11-23T03:31:04+09:00
+lastmod: 2022-11-23T03:31:04+09:00
 
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
@@ -203,7 +203,7 @@ by Sir John Templeton
 `나`라는 개념 또한 그렇게 생각하기 때문에 앞서 `Like Me`에 대해서 정리를 해보았다.
 
 {{< admonition note "Einstein and the Poet" >}}
-_The truly religious man has no fear of life and no fear of death—and certainly no blind faith; his faith must be in his conscience. . . .I am therefore against all organized religion._
+_The truly religious man has no fear of life and no fear of death and certainly no blind faith; his faith must be in his conscience. **I am therefore against all organized religion.**_
 
 by Albert Einstein
 {{< /admonition  >}}
@@ -268,6 +268,8 @@ by Albert Einstein
 <center>
 
 ![](/images/계자서.jpeg)
+
+<p>계자서 비석 탁본 글씨</p>
 
 </center>
 
@@ -349,9 +351,7 @@ by Albert Einstein
 
 예를 들어 봅시다. 여러분은 보통의 젊은 사람들이 독서할 때와 마찬가지로 한 번 보고는 모두 이해했다고 생각하지만 사실은 그림자도 잡지 못했습니다.
 
-이것이 바로 도만입니다. 도만하면 정치하게 연구할 수 없습니다. 
-
-내면의 생각과 정서가 요동치면 마음이 안정되지 못해 조급하게 성질을 부리는데, 그렇게 되면 본성을 다스릴 수 없습니다. 
+이것이 바로 도만입니다. 도만하면 정치하게 연구할 수 없습니다. 내면의 생각과 정서가 요동치면 마음이 안정되지 못해 조급하게 성질을 부리는데, 그렇게 되면 본성을 다스릴 수 없습니다. 
 
 자신을 관리할 수 없게 되지요.
 
