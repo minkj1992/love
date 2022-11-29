@@ -3,7 +3,7 @@ title: "Gevent"
 subtitle: ""
 
 summary : ""
-description: ""
+description: "Let's deep dive into gevent based python programming"
 
 date: 2022-04-24T12:39:29+09:00
 lastmod: 2022-04-24T12:39:29+09:00
@@ -583,5 +583,3 @@ Quitting time!
 Quitting time!
 Quitting time!
 ```
-
-### Groups and Pools

@@ -1,9 +1,9 @@
 ---
 title: "Depp dive into shell script line by line"
-subtitle: "summarize shell useful script commands"
+subtitle: ""
 
 summary : ""
-description: ""
+description: "List up some useful shell scripts"
 
 date: 2022-04-23T17:14:25+09:00
 lastmod: 2022-04-23T17:14:25+09:00
