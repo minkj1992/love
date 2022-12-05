@@ -38,7 +38,7 @@ printf "\033[0;32m  Come Back up to the Project Root \033[0m\n"
 cd ..
 echo $pwd
 
-printf "\033[0;32m  root repository Commit & Push. \033[0m\n"
+printf "\033[0;32m  root repository Commit. \033[0m\n"
 git add .
 
 msg="rebuilding site `date`"
@@ -48,4 +48,5 @@ fi
 
 git commit -m "$msg"
 
+printf "\033[0;32m  root repository Push. \033[0m\n"
 git push -f origin main
