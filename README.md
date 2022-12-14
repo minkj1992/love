@@ -142,3 +142,18 @@ System.out.println("Hello World");
 ## update `lastmod`
 
 > https://makewithhugo.com/add-a-last-edited-date/
+
+
+## posts
+
+- create posts with markdown extension
+
+```bash
+$ hugo new posts/<POST_NAME.md>
+```
+
+- create specific archetypes posts (i.g book)
+
+```bash
+$ hugo new posts/<POST_NAME.md> --kind=book
+```
