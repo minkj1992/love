@@ -25,7 +25,7 @@ You need to write intro in here
 ## tl;dr
 > 
 
-## 1. 주제 질문과 주제
+## 1. 질문과 주제
 > 책의 주요 질문은 무엇이고 그에 대한 답은?
 
 
