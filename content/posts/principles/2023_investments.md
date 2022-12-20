@@ -22,13 +22,6 @@ draft: false
 2023년부터 진행할 `투자 시나리오`와 `투자 원칙`들을 정리 합니다.
 <!--more-->
 
-
-## 1. scenario
-
-## 2. principles
-
-## 3. mind
-
 {{< mermaid >}}
 
 graph TD
@@ -47,7 +40,6 @@ graph TD
     J --> K{ 현재 시나리오와 관련되어있는가?}
     K -->|yes | L(8. 현재 시나리오를 수정하라.) --> N
     K -->|no | N(9. 현재 시나리오 대로 행동하라.)
-    
 {{</ mermaid>}}
 
 
