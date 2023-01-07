@@ -16,7 +16,7 @@ tags: ["retrospect"]
 categories: ["life"]
 
 lightgallery: true
-draft: false
+draft: true
 ---
 
 You need to write intro in here
