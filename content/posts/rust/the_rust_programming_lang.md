@@ -1,5 +1,5 @@
 ---
-title: "The rust programming language"
+title: "[Part1] The rust programming language"
 subtitle: "The official Rust book"
 
 summary : "The official Rust book"
