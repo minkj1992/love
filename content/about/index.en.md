@@ -30,10 +30,12 @@ draft: false
 
 <div align="center">
     <img src="/images/profile3.png" width=200> <br/>
-    <b>Minwook Je</b> <br/>
+    <b>Minwook Je</b>
+    <br/>
     <a href="https://github.com/minkj1992"><img src="/images/github.png" width=20 align="center"> GitHub |</a>
     <a href="https://www.linkedin.com/in/minwook-je-934a16178/"><img src="/images/linkedin.png" width=16 align="center"> LinkedIn |</a>
     <a href="https://minkj1992.github.io"><img src="/images/web.png" width=16 align="center"> Website</a>
+    <br/>
     <a href="https://blog.naver.com/minkj1992"><img src="/images/blog.png" width=16 align="center"> Blog</a>
     <a href="https://minkj1992.github.io"><img src="/images/kakao.png" width=16 align="center"> KakaoTalk</a>
     <p>Hi I'm <strong>minwook</strong>. I want to be a conscientious person weighing my love and justice. 🐋</p>
@@ -54,12 +56,9 @@ draft: false
 
 <center>
 
-<figure>
-    <img src="/images/bear.webp" style="width:100%"/>
-    <figcaption>
-        <p>Headquarters: Redwood City, California</p>
-    </figcaption>
-</figure>
+![](/images/bear.jpeg)
+
+<p>Headquarters: Redwood City, California</p>
 
 [HomePage](https://www.bearrobotics.ai/) | [Linkedin](https://www.linkedin.com/company/bear-robotics-inc/about/)
 
@@ -70,6 +69,18 @@ draft: false
 ### 1-2. Kakao
 > 2020.07 - 2022.03
 
+<center>
+
+
+![](/images/about_kakao.webp)
+    
+Headquarters: Jeju, Korea
+
+[HomePage](https://www.kakaocorp.com) | [Linkedin](https://www.linkedin.com/company/kakaocorp/about/)
+
+</center>
+
+
 `Software Engineer`
 
 - Joined `Blockchain task force`(`Krust`) and developed front page and API server that issues `Klaytn` NFT based certification cards for Korea National Human Resources certification system
@@ -77,39 +88,35 @@ draft: false
 - Deployed Kakao cloud services with Kubernetes and RabbitMQ.
 
 
-<center>
-
-<figure>
-    <img src="/images/kakao.webp" width="100%"/>
-    <figcaption>
-        <p>Headquarters: Jeju, Korea</p>
-    </figcaption>
-</figure>
-
-[HomePage](https://www.kakaocorp.com) | [Linkedin](https://www.linkedin.com/company/kakaocorp/about/)
-
-</center>
-
-
 ### 1-3. SEMES - Samsung Electronics
 > 2020.01 - 2020.06
 
-`Embedded Software Engineer(S3)`
-
-- Developed a thread scheduling software for a distributed semiconductor etching system using C++
-
 <center>
 
 
-<img src="/images/semes.jpeg" width="100%"/>
+![](/images/semes.webp)
 
 
 [HomePage](https://www.semes.com/) | [Linkedin](https://www.linkedin.com/company/semes/about/)
 
 </center>
 
+`Embedded Software Engineer(S3)`
+
+- Developed a thread scheduling software for a distributed semiconductor etching system using C++
+
+
+
 ### 1-4. Nexters
 > 2020.11 - 2022.12
+
+<center>
+
+![](/images/nexters.png)
+
+[Homepage](https://teamnexters.com/) | [Github](https://github.com/Nexters)
+
+</center>
 
 `Management Staff`
 
@@ -120,28 +127,22 @@ draft: false
 - Led a backend development of a couple’s date planner web service using NestJS, typescript, GraphQL, mongoDB and Kakao-place API
 
 
-<center>
-
-<img src="/images/semes.jpeg" width="100%"/>
-
-[Homepage](https://teamnexters.com/) | [Github](https://github.com/Nexters)
-
-</center>
 
 ### 1-5. LIKELION
 > 2018.01 - 2019.12
+
+<center>
+
+![](/images/likelion.jpeg)
+
+[Homepage](https://www.likelion.net/)
+
+</center>
 
 `Student Developer`
 
 - Launched an official website for Ajou University Festival using Django and  AWS EC2
 
-<center>
-
-<img src="/images/likelion.jpeg" width="100%"/>
-
-[Homepage](https://www.likelion.net/)
-
-</center>
 
 ### 1-6. Ajou University LINK+
 > 2018.03 - 2018.12
