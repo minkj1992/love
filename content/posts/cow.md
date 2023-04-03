@@ -16,7 +16,7 @@ tags: ["dev"]
 categories: [""]
 
 lightgallery: true
-draft: true
+draft: false
 ---
 
 dfinity/ic 코드를 보다 이해되지 않는 코드들이 있어, Cow를 왜 사용하는지 정리하려 합니다.
