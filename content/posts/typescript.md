@@ -12,8 +12,8 @@ author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 
 featuredImage: "/images/typescripts/ts0.png"
-tags: ["dev"]
-categories: [""]
+tags: ["dev", "typescript"]
+categories: ["dev"]
 
 lightgallery: true
 draft: false
