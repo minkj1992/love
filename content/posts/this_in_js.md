@@ -22,7 +22,7 @@ draft: true
 Q. What on earth, `this` is interpretated in js?
 <!--more-->
 
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600,600i">
 ## 0. `this` intro
 > [MDN: this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 
@@ -110,6 +110,7 @@ f1() === global; // true
 f2() === undefined; // true
 ```
 
+---
 
 ## 3. Callbacks
 > `iterative array methods`, `Promise` constructor case
