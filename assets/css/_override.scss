@@ -9,3 +9,17 @@ $code-font-family: "Hack", "Fira Code";
 // $global-link-color-dark: #55bde2;
 // $global-link-color-dark: #55bde2;
 // $global-font-secondary-color-dark: #a9a9b3;
+
+$code-color: #7b68ee;
+
+.single .content p {
+  margin: 1.2rem 0 !important;
+}
+
+.single .content .highlight {
+  margin: 0.95rem 0 !important;
+}
+
+// .page {
+//   max-width: 900px !important;
+// }
