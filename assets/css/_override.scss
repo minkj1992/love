@@ -15,6 +15,14 @@ $code-font-family: "Hack", "Fira Code";
 
 $code-color: #7b68ee;
 
+// h margin
+.single .content h2,
+.single .content h3,
+.single .content h4,
+.single .content h5,
+.single .content h6 {
+  margin: 3rem 0 1rem 0 !important;
+}
 // text margin
 .single .content p {
   margin: 1.2rem 0 !important;
