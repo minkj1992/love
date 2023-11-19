@@ -44,6 +44,8 @@ $code-color: #7b68ee;
   border-top: 1px dashed #cfc8c8 !important;
 }
 
-// .page {
-//   max-width: 900px !important;
-// }
+// article main image
+.single .featured-image img {
+  width: 90% !important;
+  border-radius: 12% !important;
+}

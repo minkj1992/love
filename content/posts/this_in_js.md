@@ -11,12 +11,12 @@ lastmod: 2023-11-19T15:29:46+09:00
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
 
-featuredImage: "/images/"
+featuredImage: "/images/this_in_js.png"
 tags: ["js", "this"]
 categories: ["dev"]
 
 lightgallery: true
-draft: true
+draft: false
 ---
 
 Q. What on earth, `this` is interpretated in js?
