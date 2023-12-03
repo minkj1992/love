@@ -1,12 +1,12 @@
 ---
-title: "All about mlops"
-subtitle: ""
+title: "MLops pipeline"
+subtitle: "MLOps: 머신러닝의 지속적 배포 및 자동화 파이프라인"
 
 summary : ""
 description: ""
 
-date: 2023-09-29T15:07:21+09:00
-lastmod: 2023-09-29T15:07:21+09:00
+date: 2023-11-27T14:07:21+09:00
+lastmod: 2023-11-27T15:07:21+09:00
 
 author: "leoo.j"
 authorLink: "https://github.com/minkj1992"
@@ -22,6 +22,8 @@ draft: false
 > [MLOps for ALL](https://mlops-for-all.github.io/en/docs/introduction/intro)
 
 # 1. Introduction
+
+fdlkajfdlks
 
 ## What is MLOps?
 
